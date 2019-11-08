@@ -68,7 +68,7 @@ pipenv sync
 
 * Read the code, 
 * Disconnect propellers, etc.
-*     python3 esc_demo.py
+* `python3 esc_demo.py`
 
 
 ### Contributing:
