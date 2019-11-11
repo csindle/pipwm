@@ -61,8 +61,9 @@ pipenv sync
 #### GPIO:
 <img src="images/GPIO_pin4.jpg" alt="GPIO" height="240">
 
-ESC 5 volt Vcc (red) is *not* ESC 5 volt Vcc (red) is *not* connected.  The white signal
-wire is here connected to GPIO4, or actual pin 7.
+The red ESC 5 volt Vcc is *not* connected.
+The white signal wire is here connected to GPIO4, or pin number 7.
+
 
 #### Video description:
 
