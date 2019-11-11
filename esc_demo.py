@@ -97,9 +97,9 @@ if __name__ == "__main__":
 
     esc = TurnigyESC(pin=4)
     try:
-        #esc.calibrate()  # Needed when changing "transmitter".
-        esc.arm()
-        esc.test()
+        #esc.calibrate()  # Recommended when changing "transmitter" or controller.
+        esc.arm()         # Required upon every power-up.
+        esc.test()        # Run-up test.
     except KeyboardInterrupt:
         pass
     finally:
