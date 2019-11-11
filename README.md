@@ -22,13 +22,11 @@ Collect the ESC manufacture specific procedures for:
 
 
 
-![Example components](images/setup.jpg)
+![Example components](images/setup.jpg | width=100)
 
 
 ![ESC 5 volt Vcc (red) is *not* ESC 5 volt Vcc (red) is *not* connected.  The white signal
-wire is here connected to GPIO4, or actual pin 7.](images/GPIO_pin4.jpg)
-
-
+wire is here connected to GPIO4, or actual pin 7.](images/GPIO_pin4.jpg | width=100)
 
 
 ---
@@ -77,7 +75,7 @@ Setup description can be found here:
 * Disconnect propellers, etc.
 * `python3 esc_demo.py`
 
-#### Turnigy ESC
+### Turnigy ESC
 
 #### Calibration
 A demonstration of calibrating the ESC's maximum and minimum throttle range 
