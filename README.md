@@ -67,8 +67,8 @@ pipenv sync
 ### Setup:
 
 Setup description can be found here:
-[Demonstration setup](https://youtu.be/aYX5TPH63Rk)
- 
+[![Setup](http://img.youtube.com/vi/aYX5TPH63Rk/0.jpg)](http://www.youtube.com/watch?v=aYX5TPH63Rk)
+
 
 ### Usage:
 
@@ -76,22 +76,19 @@ Setup description can be found here:
 * Disconnect propellers, etc.
 * `python3 esc_demo.py`
 
-#### Tunrigy ESC
+#### Turnigy ESC
 
 #### Calibration
-
 A demonstration of calibrating the ESC's maximum and minimum throttle range 
 can be seen here:
-[Calibration](https://youtu.be/yyy)
+[![Calibration](http://img.youtube.com/vi/NH71n34cVI0/0.jpg)](http://www.youtube.com/watch?v=NH71n34cVI0)
 
 
 #### Arming and Running
 
 A demonstration of arming an ESC, and a subsequent full power range test 
 can be seen here: 
-
-[Arming and running](https://youtu.be/xxx)
-
+[![Arming and running](http://img.youtube.com/vi/J6DfSlBrbDo/0.jpg)](https://youtu.be/J6DfSlBrbDo)
 
 
 ### Contributing:
