@@ -1,4 +1,4 @@
-## Pi Pulse Width Modulation - Arm & Calibrate your ESC
+## PiPWM (Pi Pulse Width Modulation): Arm & Calibrate your ESC
 
 This tutorial / example shows how to use a Raspberry Pi's GPIO pins to
 control an Electronic Speed Controller (ESC).   Specifically, the manufacturer 
@@ -64,11 +64,34 @@ sudo systemctl enable pigpiod
 pipenv sync
 ```
 
+### Setup:
+
+Setup description can be found here:
+[Demonstration setup](https://youtu.be/aYX5TPH63Rk)
+ 
+
 ### Usage:
 
 * Read the code, 
 * Disconnect propellers, etc.
 * `python3 esc_demo.py`
+
+#### Tunrigy ESC
+
+#### Calibration
+
+A demonstration of calibrating the ESC's maximum and minimum throttle range 
+can be seen here:
+[Calibration](https://youtu.be/yyy)
+
+
+#### Arming and Running
+
+A demonstration of arming an ESC, and a subsequent full power range test 
+can be seen here: 
+
+[Arming and running](https://youtu.be/xxx)
+
 
 
 ### Contributing:
