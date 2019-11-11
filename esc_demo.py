@@ -41,7 +41,7 @@ class TurnigyESC:
         """
         print("Calibrating...")
         self.pwm(width=self.MAX_WIDTH)
-        input("Connect power and press Enter to continue...")
+        input("Connect power and press Enter to calibrate...")
         self.pwm(width=self.MAX_WIDTH, snooze=2)   # Official docs: "about 2 seconds".
         self.pwm(width=self.MIN_WIDTH, snooze=4)   # Time enough for the cell count, etc. beeps to play.
         print("Finished calibration.")
@@ -52,7 +52,7 @@ class TurnigyESC:
         """
         print("Arming...")
         self.pwm(width=self.MIN_WIDTH, snooze=4)  # Time enough for the cell count, etc. beeps to play.
-        input("Connect power and press Enter to continue...")
+        print("Armed...")
 
     def halt(self) -> None:
         """
