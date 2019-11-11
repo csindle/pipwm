@@ -67,6 +67,7 @@ pipenv sync
 ### Setup:
 
 Setup description can be found here:
+
 [![Setup](http://img.youtube.com/vi/aYX5TPH63Rk/0.jpg)](http://www.youtube.com/watch?v=aYX5TPH63Rk)
 
 
@@ -81,14 +82,16 @@ Setup description can be found here:
 #### Calibration
 A demonstration of calibrating the ESC's maximum and minimum throttle range 
 can be seen here:
+
 [![Calibration](http://img.youtube.com/vi/NH71n34cVI0/0.jpg)](http://www.youtube.com/watch?v=NH71n34cVI0)
 
 
 #### Arming and Running
 
 A demonstration of arming an ESC, and a subsequent full power range test 
-can be seen here: 
-[![Arming and running](http://img.youtube.com/vi/J6DfSlBrbDo/0.jpg)](https://youtu.be/J6DfSlBrbDo)
+can be seen here:
+
+[![Arming and running](http://img.youtube.com/vi/J6DfSlBrbDo/0.jpg)](http://www.youtube.com/watch?v=J6DfSlBrbDo)
 
 
 ### Contributing:
