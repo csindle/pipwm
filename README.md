@@ -20,15 +20,6 @@ Collect the ESC manufacture specific procedures for:
   * Plush (6A, 10A, 12A, 18A, 25A, 30A, 40A, 60A, 80A)
   * Basic (18A, 25A))
 
-
-
-![Example components](images/setup.jpg | width=100)
-
-
-![ESC 5 volt Vcc (red) is *not* ESC 5 volt Vcc (red) is *not* connected.  The white signal
-wire is here connected to GPIO4, or actual pin 7.](images/GPIO_pin4.jpg | width=100)
-
-
 ---
 
 **Warning: Remove propellers, etc. before testing, and 
@@ -64,7 +55,16 @@ pipenv sync
 
 ### Setup:
 
-Setup description can be found here:
+#### Components:
+<img src="images/setup.jpg" alt="Components" width="120">
+
+#### GPIO:
+<img src="images/GPIO_pin4.jpg" alt="GPIO" height="120">
+
+ESC 5 volt Vcc (red) is *not* ESC 5 volt Vcc (red) is *not* connected.  The white signal
+wire is here connected to GPIO4, or actual pin 7.
+
+#### Video description:
 
 [![Setup](http://img.youtube.com/vi/aYX5TPH63Rk/0.jpg)](http://www.youtube.com/watch?v=aYX5TPH63Rk)
 
