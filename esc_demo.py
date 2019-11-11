@@ -61,9 +61,9 @@ class TurnigyESC:
         """
         print("Slowing...")
         self.pwm(width=self.MIN_WIDTH, snooze=1)   # This 1 sec seems to *hasten* shutdown.
-        print("Halting...")
+        print("Failsafe...")
         self.pwm(0)
-        print("Stopping...")
+        print("Disabling GPIO.")
         self.conn.stop()
         print("Halted.")
 
@@ -84,6 +84,7 @@ class TurnigyESC:
 
         time.sleep(1)  # Duration test.  Seems to last almost 60s @ 1350.
 
+        print("Holding at max...")
         snooze = 0.1
         print("Decreasing...")
         for width in range(max_width, min_width, -step):
