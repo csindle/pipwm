@@ -77,6 +77,8 @@ class TurnigyESC:
         step = 9  # microseconds
 
         snooze = 0.3  # seconds
+
+        input("Press Enter to conduct run-up test...")
         for i in range(1):
             print("Increasing...")
             for width in range(min_width, max_width, step):
